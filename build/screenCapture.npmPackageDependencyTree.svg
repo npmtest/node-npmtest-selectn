@@ -8,8 +8,8 @@
 <tspan x="10" y="90">  ├── brackets2dots@1.1.0 </tspan>
 <tspan x="10" y="106">  ├─┬ curry2@1.0.3 </tspan>
 <tspan x="10" y="122">  │ └── fast-bind@1.0.0 </tspan>
-<tspan x="10" y="138">  ├─┬ debug@2.6.3 </tspan>
-<tspan x="10" y="154">  │ └── ms@0.7.2 </tspan>
+<tspan x="10" y="138">  ├─┬ debug@2.6.4 </tspan>
+<tspan x="10" y="154">  │ └── ms@0.7.3 </tspan>
 <tspan x="10" y="170">  └── dotsplit.js@1.1.0</tspan>
 </text>
 </svg>
