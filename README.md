@@ -1,6 +1,6 @@
 # npmtest-selectn
 
-#### test coverage for  [selectn (v1.1.2)](https://github.com/wilmoore/selectn.js)  [![npm package](https://img.shields.io/npm/v/npmtest-selectn.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-selectn) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-selectn.svg)](https://travis-ci.org/npmtest/node-npmtest-selectn)
+#### basic test coverage for  [selectn (v1.1.2)](https://github.com/wilmoore/selectn.js)  [![npm package](https://img.shields.io/npm/v/npmtest-selectn.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-selectn) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-selectn.svg)](https://travis-ci.org/npmtest/node-npmtest-selectn)
 
 #### Curried property accessor function that resolves deeply-nested object properties via dot/bracket-notation string path while mitigating TypeErrors via friendly and composable API.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-selectn/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-selectn/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-selectn/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-selectn/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-selectn/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-selectn/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-selectn/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-selectn/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-selectn/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-selectn/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-selectn/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-selectn/build/coverage.html/index.html)
 
@@ -134,7 +134,8 @@
         "test:browsers": "zuul -- test.js",
         "test:browsers:local": "zuul --local 8080 -- test.js"
     },
-    "version": "1.1.2"
+    "version": "1.1.2",
+    "bin": {}
 }
 ```
 
